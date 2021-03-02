@@ -115,18 +115,20 @@ h4 {
 }
 
 #content {
-  display: inline;
+  /* text-align: right; */
 }
 #side-text {
   background-color: #967D08;
-  display: block;
+  /* display: block; */
   padding: 10px;
   margin: 10px;
   right: 0px;
 }
 
 .img-txt {
-  display: inline-block;
+  justify-content: flex-end;
+  flex-direction: column;
+  display: inline;
   width: 300px;
   padding: 0;
   margin: 0;
